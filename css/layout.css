@@ -87,6 +87,28 @@ div.sims2{
 
 div.words2{
 		float: left;
+		padding-left: 1em;
 		width: 25%;
 		background-color: #aaa;
+}
+
+div.cover1{
+		float: left;
+		padding-left: 1em;
+		width: 25%;
+}
+div.cover2{
+		float: left;
+		padding-left: 1em;
+		width: 25%;
+}
+div.cover3{
+		float: left;
+		padding-left: 1em;
+		width: 25%;
+}
+div.cover4{
+		float: left;
+		padding-left: 1em;
+		width: 25%;
 }
