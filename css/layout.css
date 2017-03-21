@@ -27,16 +27,44 @@ hgroup, header, footer, address, nav {
 	border: 1px solid #eee;
 }
 
+h1 {
+	font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 26.4px;
+}
+
+h2 {
+	font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 26.4px;
+}
+
+p {
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+
 /* Style the tab */
 div.tab {
     overflow: hidden;
     border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    background-color: #04e762;
+		margin-bottom: 2em;
 }
 
 /* Style the buttons inside the tab */
 div.tab button {
-    background-color: #41FFD8;
+    background-color: #04e762;
     float: left;
     border: none;
     outline: none;
@@ -47,7 +75,7 @@ div.tab button {
 
 /* Change background color of buttons on hover */
 div.tab button:hover {
-    background-color: #ddd;
+    background-color: #f5b700;
 }
 
 /* Create an active/current tablink class */
@@ -65,14 +93,15 @@ div.tab button.active {
 
 
 div.simsMain {
-		background-color: #aaa;
+		background-color: #04e762;
 		float: left;
 		width: 75%;
+		margin-bottom: 2em;
 }
 
 div.words{
 
-		background-color: #aaa;
+		background-color: #83e800;
 		float: left;
 		width: 25%;
 		padding-left: 1em;
@@ -81,15 +110,17 @@ div.words{
 
 div.sims2{
 		float: right;
-		width: 75%;
-
+		width: 72%;
+		margin-bottom: 2em;
 }
 
 div.words2{
 		float: left;
 		padding-left: 1em;
-		width: 25%;
-		background-color: #aaa;
+		padding-right: 1em;
+		width: 28%;
+		background-color: #83e800;
+		margin-bottom: 2.2em;
 }
 
 div.cover1{
