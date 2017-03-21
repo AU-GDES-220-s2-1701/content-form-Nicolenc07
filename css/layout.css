@@ -100,13 +100,12 @@ div.simsMain {
 }
 
 div.words{
-
 		background-color: #83e800;
 		float: left;
 		width: 25%;
 		padding-left: 1em;
+		padding-right: 1em;
 }
-
 
 div.sims2{
 		float: right;
