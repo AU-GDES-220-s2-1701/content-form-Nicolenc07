@@ -5,10 +5,10 @@
 	and other elements used for layout. */
 
 /*
-div, main, article, section, aside, 
+div, main, article, section, aside,
 hgroup, header, footer, address, nav {
 	border: 1px solid rgba(255,0,0,0.15) !important;
-	background: rgba(255,0,0,0.05) !important;		
+	background: rgba(255,0,0,0.05) !important;
 }
 */
 
@@ -27,3 +27,66 @@ hgroup, header, footer, address, nav {
 	border: 1px solid #eee;
 }
 
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: #41FFD8;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+
+div.simsMain {
+		background-color: #aaa;
+		float: left;
+		width: 75%;
+}
+
+div.words{
+
+		background-color: #aaa;
+		float: left;
+		width: 25%;
+		padding-left: 1em;
+}
+
+
+div.sims2{
+		float: right;
+		width: 75%;
+
+}
+
+div.words2{
+		float: left;
+		width: 25%;
+		background-color: #aaa;
+}
