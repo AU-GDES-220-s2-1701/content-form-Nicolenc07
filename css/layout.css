@@ -24,8 +24,31 @@ hgroup, header, footer, address, nav {
 	width: 90%;
 	max-width: 1200px;
 	padding: 2em;
-	min-width: 800px;
-	border: 1px solid #eee;
+	min-width: 1200px;
+	border: 1px solid #fff;
+}
+
+.local-nav ul{
+	padding-left: 0;
+	margin: 2em;
+
+}
+
+.local-nav a{
+	color: #fff;
+	background: #04e762;
+	padding: 1em 2em 1em 2em;
+	margin-left: -4px;
+	text-decoration: none;
+	font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 26.4px;
+}
+.local-nav a:hover{
+		color: #008bf8
 }
 
 .global-nav ul{
@@ -92,13 +115,6 @@ div.simsMain {
 		margin-bottom: 2em;
 }
 
-div.simsOther {
-		background-color: #04e762;
-		float: left;
-		width: 75%;
-		margin-bottom: 2em;
-}
-
 div.words{
 		background-color: #83e800;
 		float: left;
@@ -141,4 +157,24 @@ div.cover4{
 		float: left;
 		padding-left: 1em;
 		width: 25%;
+}
+
+
+.sims4cover{
+		width: 25%;
+		float: left;
+}
+
+.sims4words{
+		width: 75%;
+		float: left;
+		background-color: #83e800;
+		padding-left: 1em;
+		padding-right: 1em;
+
+}
+
+.sims4image{
+	margin-bottom: 15em;
+	float: left;
 }
