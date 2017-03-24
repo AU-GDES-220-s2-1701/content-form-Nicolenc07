@@ -53,8 +53,11 @@ hgroup, header, footer, address, nav {
 
 .global-nav ul{
 
-	padding-left: 0;
+	padding-left: 0px;
 	margin: 2em;
+	margin-left: 1px;
+	height: 40px; <!-- this closes the gap and makes things appear closer to each other -->
+
 }
 
 .global-nav a{
