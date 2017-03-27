@@ -31,10 +31,11 @@ hgroup, header, footer, address, nav {
 .local-nav ul{
 	padding-left: 0;
 	margin: 2em;
-
+	
 }
 
 .local-nav a{
+	float: left;
 	color: #fff;
 	background: #04e762;
 	padding: 1em 2em 1em 2em;
@@ -68,6 +69,7 @@ hgroup, header, footer, address, nav {
 		margin-left: -4px;
 		text-decoration: none;
 
+		float: left;
 		font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
 		font-size: 16px;
 		font-style: normal;
