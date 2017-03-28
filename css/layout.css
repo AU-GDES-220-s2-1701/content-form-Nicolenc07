@@ -29,8 +29,11 @@ hgroup, header, footer, address, nav {
 }
 
 body{
-	background: #fbf5f5;
-	background-image: url("../gdesImages/sims4background.jpg");
+	background-color: #fbf5f5;
+	background-image: url("../../gdesImages/sims4background2.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+
 }
 
 .local-nav ul{
