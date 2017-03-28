@@ -28,10 +28,15 @@ hgroup, header, footer, address, nav {
 	border: 1px solid #fff;
 }
 
+body{
+	background: #fbf5f5;
+	background-image: url("../gdesImages/sims4background.jpg");
+}
+
 .local-nav ul{
 	padding-left: 0;
 	margin: 2em;
-	
+
 }
 
 .local-nav a{
