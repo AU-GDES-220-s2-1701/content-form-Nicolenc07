@@ -25,7 +25,7 @@ hgroup, header, footer, address, nav {
 	max-width: 1200px;
 	padding: 2em;
 	min-width: 1200px;
-	border: 1px solid #fff;
+
 }
 
 body{
@@ -33,15 +33,11 @@ body{
 	background-image: url("../../gdesImages/sims4background2.jpg");
 	background-repeat: no-repeat;
 	background-position: center top;
-
 }
-
 .local-nav ul{
 	padding-left: 0;
 	margin: 2em;
-
 }
-
 .local-nav a{
 	float: left;
 	color: #fff;
@@ -65,9 +61,7 @@ body{
 	margin: 2em;
 	margin-left: 1px;
 	 <!-- this closes the gap and makes things appear closer to each other -->
-
 }
-
 .global-nav a{
 		color: #fff;
 		background: #04e824;
@@ -81,11 +75,8 @@ body{
 		font-variant: normal;
 		font-weight: bold;
 		line-height: 26.4px;
-
 }
-
 .global-nav a:hover{
-
 		color: #6e8387;
 }
 
@@ -96,8 +87,8 @@ h1 {
 	font-variant: normal;
 	font-weight: bold;
 	line-height: 26.4px;
+	color: #fff;
 }
-
 h2 {
 	font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
 	font-size: 24px;
@@ -105,10 +96,10 @@ h2 {
 	font-variant: normal;
 	font-weight: bold;
 	line-height: 26.4px;
+	color: #fff;
 }
-
 p {
-	font-family: Georgia, Times, "Times New Roman", serif;
+	font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
 	font-size: 14px;
 	font-style: normal;
 	font-variant: normal;
@@ -117,14 +108,12 @@ p {
 	color: #fff;
 }
 
-
 div.simsMain {
-		background-color: #04e824;
+
 		float: left;
 		width: 75%;
 		margin-bottom: 2em;
 }
-
 div.words{
 		background-color: #04e824;
 		float: left;
@@ -132,22 +121,19 @@ div.words{
 		padding-left: 1em;
 		padding-right: 1em;
 }
-
 div.sims2{
 		float: right;
 		width: 72%;
 		margin-bottom: 2em;
 }
-
 div.words2{
 		float: left;
 		padding-left: 1em;
 		padding-right: 1em;
 		width: 28%;
-		background-color: #04e824;
 		margin-bottom: 2.2em;
+		background-color: #04e824;
 }
-
 div.cover1{
 		float: left;
 		padding-left: 1em;
@@ -168,28 +154,33 @@ div.cover4{
 		padding-left: 1em;
 		width: 25%;
 }
-
-
 .sims4cover{
 		width: 25%;
 		float: left;
 }
-
 .sims4words{
 		width: 75%;
 		float: left;
 		background-color: #04e824;
 		padding-left: 1em;
 		padding-right: 1em;
-
 }
-
 .sims4image{
 	margin-bottom: 15em;
 	float: left;
 }
-
 .sims1_cover{
 	float: left;
 	width: 25%;
+}
+.simsOther{
+	width: 25%;
+	float: left;
+}
+.simsOtherwords{
+	width: 75%;
+	float: left;
+	padding: 1em;
+	background-color: #04e824;
+
 }
