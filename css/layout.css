@@ -61,22 +61,19 @@ body{
 }
 
 .global-nav ul{
-
 	padding-left: 0px;
 	margin: 2em;
 	margin-left: 1px;
-	height: 40px; <!-- this closes the gap and makes things appear closer to each other -->
+	 <!-- this closes the gap and makes things appear closer to each other -->
 
 }
 
 .global-nav a{
-
 		color: #fff;
 		background: #04e762;
 		padding: 1em 2em 1em 2em;
 		margin-left: -4px;
 		text-decoration: none;
-
 		float: left;
 		font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
 		font-size: 16px;
