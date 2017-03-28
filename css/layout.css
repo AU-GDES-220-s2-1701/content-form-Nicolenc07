@@ -45,7 +45,7 @@ body{
 .local-nav a{
 	float: left;
 	color: #fff;
-	background: #04e762;
+	background: #04e824;
 	padding: 1em 2em 1em 2em;
 	margin-left: -4px;
 	text-decoration: none;
@@ -57,7 +57,7 @@ body{
 	line-height: 26.4px;
 }
 .local-nav a:hover{
-		color: #008bf8
+		color: #6e8387
 }
 
 .global-nav ul{
@@ -70,7 +70,7 @@ body{
 
 .global-nav a{
 		color: #fff;
-		background: #04e762;
+		background: #04e824;
 		padding: 1em 2em 1em 2em;
 		margin-left: -4px;
 		text-decoration: none;
@@ -86,7 +86,7 @@ body{
 
 .global-nav a:hover{
 
-		color: #008bf8;
+		color: #6e8387;
 }
 
 h1 {
@@ -119,14 +119,14 @@ p {
 
 
 div.simsMain {
-		background-color: #04e762;
+		background-color: #04e824;
 		float: left;
 		width: 75%;
 		margin-bottom: 2em;
 }
 
 div.words{
-		background-color: #83e800;
+		background-color: #04e824;
 		float: left;
 		width: 25%;
 		padding-left: 1em;
@@ -144,7 +144,7 @@ div.words2{
 		padding-left: 1em;
 		padding-right: 1em;
 		width: 28%;
-		background-color: #83e800;
+		background-color: #04e824;
 		margin-bottom: 2.2em;
 }
 
@@ -178,7 +178,7 @@ div.cover4{
 .sims4words{
 		width: 75%;
 		float: left;
-		background-color: #83e800;
+		background-color: #04e824;
 		padding-left: 1em;
 		padding-right: 1em;
 
