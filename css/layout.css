@@ -41,7 +41,7 @@ body{
 .local-nav a{
 	float: left;
 	color: #fff;
-	background: #04e824;
+	background: #6e8387;
 	padding: 1em 2em 1em 2em;
 	margin-left: -4px;
 	text-decoration: none;
@@ -53,7 +53,7 @@ body{
 	line-height: 26.4px;
 }
 .local-nav a:hover{
-		color: #6e8387
+		color: #c8d3d5
 }
 
 .global-nav ul{
@@ -64,7 +64,7 @@ body{
 }
 .global-nav a{
 		color: #fff;
-		background: #04e824;
+		background: #6e8387;
 		padding: 1em 2em 1em 2em;
 		margin-left: -4px;
 		text-decoration: none;
@@ -77,11 +77,11 @@ body{
 		line-height: 26.4px;
 }
 .global-nav a:hover{
-		color: #6e8387;
+		color: #c8d3d5;
 }
 
 h1 {
-	font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
 	font-size: 24px;
 	font-style: normal;
 	font-variant: normal;
@@ -89,14 +89,14 @@ h1 {
 	line-height: 26.4px;
 	color: #fff;
 }
-h2 {
+h2 , h3 {
 	font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
-	font-size: 24px;
+	font-size: 20px;
 	font-style: normal;
 	font-variant: normal;
-	font-weight: bold;
+	font-size: bold;
 	line-height: 26.4px;
-	color: #fff;
+	color:#fff;
 }
 p {
 	font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
@@ -108,70 +108,88 @@ p {
 	color: #fff;
 }
 
-div.simsMain {
+.simsMain {
 
 		float: left;
 		width: 75%;
 		margin-bottom: 2em;
 }
-div.words{
+.words{
 		background-color: #04e824;
+		background: rgba(4, 232, 36, 0.5);
 		float: left;
 		width: 25%;
 		padding-left: 1em;
 		padding-right: 1em;
 }
-div.sims2{
-		float: right;
-		width: 72%;
-		margin-bottom: 2em;
-}
-div.words2{
+.words2{
 		float: left;
 		padding-left: 1em;
 		padding-right: 1em;
 		width: 28%;
 		margin-bottom: 2.2em;
 		background-color: #04e824;
+		background: rgba(4, 232, 36, 0.5);
 }
-div.cover1{
-		float: left;
-		padding-left: 1em;
-		width: 25%;
+.sims1words{
+	background-color: #04e824;
+	float: left;
+	width: 75%;
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-bottom: 5.5em;
+	background: rgba(4, 232, 36, 0.5);
 }
-div.cover2{
-		float: left;
-		padding-left: 1em;
-		width: 25%;
+.sims1words2{
+	float: left;
+	padding-left: 1em;
+	padding-right: 1em;
+	width: 100%;
+	margin-bottom: 2.2em;
+	background-color: #04e824;
+	background: rgba(4, 232, 36, 0.5);
 }
-div.cover3{
-		float: left;
-		padding-left: 1em;
-		width: 25%;
-}
-div.cover4{
-		float: left;
-		padding-left: 1em;
-		width: 25%;
-}
-.sims4cover{
-		width: 25%;
-		float: left;
-}
-.sims4words{
-		width: 75%;
+.simsExpansion1words{
+		width: 100%;
 		float: left;
 		background-color: #04e824;
 		padding-left: 1em;
 		padding-right: 1em;
+		background: rgba(4, 232, 36, 0.5);
 }
-.sims4image{
-	margin-bottom: 15em;
-	float: left;
+.sims2{
+		float: right;
+		width: 72%;
+		margin-bottom: 2em;
+}
+.cover1{
+		float: left;
+		padding-left: 1em;
+		width: 25%;
+}
+.cover2{
+		float: left;
+		padding-left: 1em;
+		width: 25%;
+}
+.cover3{
+		float: left;
+		padding-left: 1em;
+		width: 25%;
+}
+.cover4{
+		float: left;
+		padding-left: 1em;
+		width: 25%;
 }
 .sims1_cover{
 	float: left;
 	width: 25%;
+	margin-bottom: 2em;
+}
+.sims4image{
+	margin-bottom: 15em;
+	float: left;
 }
 .simsOther{
 	width: 25%;
@@ -182,5 +200,5 @@ div.cover4{
 	float: left;
 	padding: 1em;
 	background-color: #04e824;
-
+	background: rgba(4, 232, 36, 0.5);
 }
