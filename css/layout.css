@@ -149,6 +149,58 @@ p {
 	background-color: #04e824;
 	background: rgba(4, 232, 36, 0.5);
 }
+.sims1Games{
+	float: left;
+	width: 25%;
+}
+.sims1Gameswords{
+	float: left;
+	padding-left: 1em;
+	padding-right: 1em;
+	width: 75%;
+	margin-bottom: 8em;
+	background-color: #04e824;
+	background: rgba(4, 232, 26, 0.5);
+}
+.sims2Games{
+	float: left;
+	width: 25%;
+}
+.sims2Gameswords{
+	float: left;
+	padding-left: 1em;
+	padding-right: 1em;
+	width: 75%;
+	margin-bottom: 2em;
+	background-color: #04e824;
+	background: rgba(4, 232, 26, 0.5);
+}
+.sims3Games{
+	float: left;
+	width: 25%;
+}
+.sims3Gameswords{
+	float: left;
+	padding-left: 1em;
+	padding-right: 1em;
+	width: 75%;
+	margin-bottom: 2em;
+	background-color: #04e824;
+	background: rgba(4, 232, 26, 0.5);
+}
+.sims4Games{
+	float: left;
+	width: 25%;
+}
+.sims4Gameswords{
+	float: left;
+	padding-left: 1em;
+	padding-right: 1em;
+	width: 75%;
+	margin-bottom: 2em;
+	background-color: #04e824;
+	background: rgba(4, 232, 26, 0.5);
+}
 .simsExpansion1words{
 		width: 100%;
 		float: left;
@@ -157,30 +209,26 @@ p {
 		padding-right: 1em;
 		background: rgba(4, 232, 36, 0.5);
 }
+.sims2words{
+	width: 100%;
+	float: left;
+	background-color: #04e824;
+	padding-left: 1em;
+	padding-right: 1em;
+	background: rgba(4, 232, 36, 0.5);
+}
+.sims2words2{
+	width: 100%;
+	float: left;
+	background-color: #04e824;
+	padding-left: 1em;
+	padding-right: 1em;
+	background: rgba(4, 232, 36, 0.5);
+}
 .sims2{
 		float: right;
 		width: 72%;
 		margin-bottom: 2em;
-}
-.cover1{
-		float: left;
-		padding-left: 1em;
-		width: 25%;
-}
-.cover2{
-		float: left;
-		padding-left: 1em;
-		width: 25%;
-}
-.cover3{
-		float: left;
-		padding-left: 1em;
-		width: 25%;
-}
-.cover4{
-		float: left;
-		padding-left: 1em;
-		width: 25%;
 }
 .sims1_cover{
 	float: left;
