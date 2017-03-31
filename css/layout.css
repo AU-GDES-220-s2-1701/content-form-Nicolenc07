@@ -36,24 +36,27 @@ body{
 }
 .local-nav ul{
 	padding-left: 0;
-	margin: 2em;
+	margin: 0;
+	list-style-type: none;
+	background-color: #6e8387;
+	float: left;
 }
 .local-nav a{
-	float: left;
-	color: #fff;
-	background: #6e8387;
-	padding: 1em 2em 1em 2em;
-	margin-left: -4px;
+	display: block;
+	color: #000;
+	padding: 8px 16px;
 	text-decoration: none;
+	text-align: center;
 	font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
 	font-size: 16px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: bold;
 	line-height: 26.4px;
+	color: #fff;
 }
 .local-nav a:hover{
-		color: #c8d3d5
+		background-color: #04e824;
 }
 
 .global-nav ul{
@@ -78,7 +81,7 @@ body{
 		line-height: 26.4px;
 }
 .global-nav a:hover{
-		color: #c8d3d5;
+		background-color: #04e824;
 }
 .active{
 	background-color: #6e8387;
@@ -262,11 +265,17 @@ p {
 	padding-left: 1em;
 	padding-right: 1em;
 	background: rgba(4, 232, 36, 0.5);
-}
-.sims2words4_2 p{
 	padding-left: 2em;
 }
 .sims2words5{
+	width: 100%;
+	float: left;
+	background-color: #04e824;
+	padding-left: 1em;
+	padding-right: 1em;
+	background: rgba(4, 232, 36, 0.5);
+}
+.sims3gameswords1{
 	width: 100%;
 	float: left;
 	background-color: #04e824;
