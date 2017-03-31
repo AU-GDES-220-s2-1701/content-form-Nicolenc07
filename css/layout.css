@@ -35,27 +35,50 @@ body{
 	background-position: center top;
 }
 .local-nav ul{
-	padding-left: 0;
-	margin: 0;
-	list-style-type: none;
-	background-color: #6e8387;
-	float: left;
+	padding-left: 0px;
+	margin: 2em;
+	margin-left: 1px;
 }
 .local-nav a{
-	display: block;
-	color: #000;
-	padding: 8px 16px;
+	color: #fff;
+	background: #6e8387;
+	padding: 1em 2em 1em 2em;
+	margin-left: -4px;
 	text-decoration: none;
 	text-align: center;
+	float: left;
 	font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
 	font-size: 16px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: bold;
 	line-height: 26.4px;
-	color: #fff;
 }
 .local-nav a:hover{
+		background-color: #04e824;
+}
+
+.local-nav_2 ul{
+	padding-left: 0px;
+	margin: 2em;
+	margin-left: 1px;
+}
+.local-nav_2 a{
+	color: #fff;
+	background: #6e8387;
+	padding: 1em 2em 1em 2em;
+	margin-left: -4px;
+	text-decoration: none;
+	text-align: center;
+	float: left;
+	font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 26.4px;
+}
+.local-nav_2 a:hover{
 		background-color: #04e824;
 }
 
@@ -130,7 +153,7 @@ p {
 		width: 75%;
 		margin-bottom: 2em;
 }
-.words{
+.words {
 		background-color: #04e824;
 		background: rgba(4, 232, 36, 0.5);
 		float: left;
@@ -138,7 +161,7 @@ p {
 		padding-left: 1em;
 		padding-right: 1em;
 }
-.words2{
+.words2 {
 		float: left;
 		padding-left: 1em;
 		padding-right: 1em;
@@ -147,7 +170,7 @@ p {
 		background-color: #04e824;
 		background: rgba(4, 232, 36, 0.5);
 }
-.sims1words{
+.sims1words {
 	background-color: #04e824;
 	float: left;
 	width: 75%;
@@ -156,7 +179,7 @@ p {
 	margin-bottom: 5.5em;
 	background: rgba(4, 232, 36, 0.5);
 }
-.sims1words2{
+.sims1words2 {
 	float: left;
 	padding-left: 1em;
 	padding-right: 1em;
@@ -165,54 +188,56 @@ p {
 	background-color: #04e824;
 	background: rgba(4, 232, 36, 0.5);
 }
-.sims1Games{
+.sims1GamesCOVER {
 	float: left;
 	width: 25%;
+
 }
-.sims1Gameswords{
+.sims1GamesCOVERwords {
 	float: left;
 	padding-left: 1em;
 	padding-right: 1em;
-	width: 75%;
-	margin-bottom: 8em;
-	background-color: #04e824;
-	background: rgba(4, 232, 26, 0.5);
-}
-.sims2Games{
-	float: left;
-	width: 25%;
-}
-.sims2Gameswords{
-	float: left;
-	padding-left: 1em;
-	padding-right: 1em;
-	width: 75%;
+	width: 100%;
+	margin-top: 2em;
 	margin-bottom: 2em;
 	background-color: #04e824;
 	background: rgba(4, 232, 26, 0.5);
 }
-.sims3Games{
+.sims2GamesCOVER {
 	float: left;
 	width: 25%;
 }
-.sims3Gameswords{
+.sims2GamesCOVERwords {
 	float: left;
 	padding-left: 1em;
 	padding-right: 1em;
-	width: 75%;
+	width: 100%;
 	margin-bottom: 2em;
 	background-color: #04e824;
 	background: rgba(4, 232, 26, 0.5);
 }
-.sims4Games{
+.sims3GamesCOVER {
 	float: left;
 	width: 25%;
 }
-.sims4Gameswords{
+.sims3GamesCOVERwords {
 	float: left;
 	padding-left: 1em;
 	padding-right: 1em;
-	width: 75%;
+	width: 100%;
+	margin-bottom: 2em;
+	background-color: #04e824;
+	background: rgba(4, 232, 26, 0.5);
+}
+.sims4GamesCOVER {
+	float: left;
+	width: 25%;
+}
+.sims4GamesCOVERwords {
+	float: left;
+	padding-left: 1em;
+	padding-right: 1em;
+	width: 100%;
 	margin-bottom: 2em;
 	background-color: #04e824;
 	background: rgba(4, 232, 26, 0.5);
@@ -225,6 +250,14 @@ p {
 		padding-left: 1em;
 		padding-right: 1em;
 		background: rgba(4, 232, 36, 0.5);
+}
+.simsExpansion4words{
+	width: 100%;
+	float: left;
+	background-color: #04e824;
+	padding-left: 1em;
+	padding-right: 1em;
+	background: rgba(4, 232, 36, 0.5);
 }
 .sims2words{
 	width: 100%;
