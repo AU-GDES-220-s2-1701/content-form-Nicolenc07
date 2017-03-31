@@ -68,6 +68,7 @@ body{
 		padding: 1em 2em 1em 2em;
 		margin-left: -4px;
 		text-decoration: none;
+		text-align: center;
 		float: left;
 		font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
 		font-size: 16px;
@@ -78,6 +79,9 @@ body{
 }
 .global-nav a:hover{
 		color: #c8d3d5;
+}
+.active{
+	background-color: #6e8387;
 }
 
 h1 {
