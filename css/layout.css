@@ -36,6 +36,7 @@ body{
 	background-color: #fbf5f5;
 	background-image: url("../../gdesImages/sims4background2.jpg");
 	background-repeat: no-repeat;
+	background-attachment: fixed;
 	background-position: center top;
 }
 .local-nav ul{
@@ -134,7 +135,6 @@ p {
 }
 
 .simsMain {
-
 		float: left;
 		width: 75%;
 		margin-bottom: 2em;
@@ -174,56 +174,60 @@ p {
 	background-color: #04e824;
 	background: rgba(4, 232, 36, 0.5);
 }
-.sims1GamesCOVER {
+.Games1COVER {
 	float: left;
 	width: 25%;
-
+	margin-bottom: 2em;
+	margin-top: -8em;
 }
 .sims1GamesCOVERwords {
 	float: left;
 	padding-left: 1em;
 	padding-right: 1em;
-	width: 100%;
-	/* margin bottom: 2em:*/
-	margin-bottom: 2em;
+	width: 75%;
+	margin-top: -8em;
 	background-color: #04e824;
 	background: rgba(4, 232, 26, 0.5);
 }
-.sims2GamesCOVER {
-	float: left;
+.Games2COVER {
 	width: 25%;
+	margin-top: 10em;
+	margin-bottom: 2em;
 }
 .sims2GamesCOVERwords {
-	float: left;
+	float: right;
 	padding-left: 1em;
 	padding-right: 1em;
-	width: 100%;
+	width: 75%;
+	margin-top: -25em;
 	margin-bottom: 2em;
 	background-color: #04e824;
 	background: rgba(4, 232, 26, 0.5);
 }
-.sims3GamesCOVER {
+.Games3COVER {
 	float: left;
 	width: 25%;
+	margin-bottom: 2em;
 }
 .sims3GamesCOVERwords {
 	float: left;
 	padding-left: 1em;
 	padding-right: 1em;
-	width: 100%;
+	width: 75%;
 	margin-bottom: 2em;
 	background-color: #04e824;
 	background: rgba(4, 232, 26, 0.5);
 }
-.sims4GamesCOVER {
+.Games4COVER {
 	float: left;
 	width: 25%;
+	margin-bottom: 2em;
 }
 .sims4GamesCOVERwords {
 	float: left;
 	padding-left: 1em;
 	padding-right: 1em;
-	width: 100%;
+	width: 75%;
 	margin-bottom: 2em;
 	background-color: #04e824;
 	background: rgba(4, 232, 26, 0.5);
