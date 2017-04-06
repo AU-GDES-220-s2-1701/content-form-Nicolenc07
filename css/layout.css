@@ -144,6 +144,7 @@ p {
 		background: rgba(4, 232, 36, 0.5);
 		float: left;
 		width: 25%;
+		height: 70%;
 		padding-left: 1em;
 		padding-right: 1em;
 }
@@ -152,6 +153,7 @@ p {
 		padding-left: 1em;
 		padding-right: 1em;
 		width: 28%;
+		height: 100%;
 		margin-bottom: 2.2em;
 		background-color: #04e824;
 		background: rgba(4, 232, 36, 0.5);
@@ -185,6 +187,7 @@ p {
 	padding-left: 1em;
 	padding-right: 1em;
 	width: 75%;
+	height: 47%;
 	margin-top: -8em;
 	background-color: #04e824;
 	background: rgba(4, 232, 26, 0.5);
@@ -199,7 +202,8 @@ p {
 	padding-left: 1em;
 	padding-right: 1em;
 	width: 75%;
-	margin-top: -25em;
+	height: 53.1%;
+	margin-top: -27.3em;
 	margin-bottom: 2em;
 	background-color: #04e824;
 	background: rgba(4, 232, 26, 0.5);
@@ -222,12 +226,14 @@ p {
 	float: left;
 	width: 25%;
 	margin-bottom: 2em;
+
 }
 .sims4GamesCOVERwords {
 	float: left;
 	padding-left: 1em;
 	padding-right: 1em;
 	width: 75%;
+	height: 53%;
 	margin-bottom: 2em;
 	background-color: #04e824;
 	background: rgba(4, 232, 26, 0.5);
@@ -366,6 +372,7 @@ p {
 }
 .simsOtherwords{
 	width: 75%;
+	height: 46%;
 	float: left;
 	padding: 1em;
 	background-color: #04e824;
