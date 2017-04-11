@@ -28,8 +28,7 @@ hgroup, header, footer, address, nav {
 }
 
 .simslogo{
-	margin-left: 27em;;
-
+	margin-left: 27em;
 }
 
 body{
@@ -42,11 +41,13 @@ body{
 .local-nav ul{
 	list-style-type: none;
   margin: 0;
+	margin-left: 83em;
   padding: 0;
   width: 200px;
 	float: left;
 	position: absolute;
 	margin-top: 300px;
+
 }
 .local-nav li a{
 	color: #fff;
@@ -122,7 +123,7 @@ h4 {
 	font-variant: normal;
 	font-size: bold;
 	line-height: 20px;
-	color:#6e8387;
+	color: #fff;
 }
 p {
 	font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
@@ -192,7 +193,7 @@ p {
 	padding-left: 1em;
 	padding-right: 1em;
 	width: 75%;
-	height: 47%;
+	height: 48.5%;
 	margin-top: -8em;
 	background-color: #04e824;
 	background: rgba(4, 232, 26, 0.5);
@@ -207,7 +208,7 @@ p {
 	padding-left: 1em;
 	padding-right: 1em;
 	width: 75%;
-	height: 53.1%;
+	height: 54.3%;
 	margin-top: -27.3em;
 	margin-bottom: 2em;
 	background-color: #04e824;
@@ -249,6 +250,7 @@ p {
 		width: 100%;
 		float: left;
 		background-color: #04e824;
+		margin-bottom: 2em;
 		padding-left: 1em;
 		padding-right: 1em;
 		background: rgba(4, 232, 36, 0.5);
@@ -260,6 +262,7 @@ p {
 	padding-left: 1em;
 	padding-right: 1em;
 	background: rgba(4, 232, 36, 0.5);
+	margin-bottom: 2em;
 }
 .sims2words{
 	width: 100%;
@@ -268,6 +271,7 @@ p {
 	padding-left: 1em;
 	padding-right: 1em;
 	background: rgba(4, 232, 36, 0.5);
+	margin-bottom: 2em;
 }
 .sims2words2{
 	width: 100%;
@@ -317,6 +321,7 @@ p {
 	padding-left: 1em;
 	padding-right: 1em;
 	background: rgba(4, 232, 36, 0.5);
+	margin-bottom: 2em;
 }
 .sims4gameswords1{
 	width: 100%;
@@ -357,6 +362,7 @@ p {
 	padding-left: 1em;
 	padding-right: 1em;
 	background: rgba(4, 232, 36, 0.5);
+	margin-bottom: 2em;
 }
 .sims1_cover{
 	float: left;
